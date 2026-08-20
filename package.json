@@ -1,0 +1,29 @@
+{
+  "name": "snake",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/main.js",
+  "scripts": {
+    "clean": "rimraf ./dist",
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/irinic/snake.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/irinic/snake/issues"
+  },
+  "homepage": "https://github.com/irinic/snake#readme",
+  "devDependencies": {
+    "rimraf": "^6.1.3",
+    "typescript": "^7.0.2",
+    "vite": "^8.2.2"
+  }
+}
